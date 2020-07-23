@@ -13,15 +13,15 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Latitude</a>
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd"">
+
+  <a class="navbar-brand" href="index.html">Latitude</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav justify-content-end" >
 
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -30,35 +30,78 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="plot_cloudiness.html">Cloudiness</a>
           <a class="dropdown-item" href="plot_wind_speed.html">Wind Speed</a>
-          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="plots_humidity.html">Humidity</a>
+		   <a class="dropdown-item" href="Max_temp.html">Max Temperature</a>
         </div>
       </li>
 	  
 	  <li class="nav-item">
-        <a class="nav-link" href="#">Comparison</a>
+        <a class="nav-link" href="Comparison.html">Comparison</a>
       </li>
 	  
       <li class="nav-item">
-        <a class="nav-link disabled" href="Data.html" tabindex="-1" aria-disabled="true">Data</a>
+        <a class="nav-link" href="Data.html">Data</a>
       </li>
+	  
     </ul>
   
   </div>
 </nav>
+<br>
+<br>
 
-<div class= "title">
+	<div class="container" style="background-color: #e3f2fd"">
+		<div class="row">
+			<div class="col-8">
+			
+				<h3> Summery: Latitude vs. X </h3>
+				<hr>  
 
-<div class="container">
-	<div class="row">
-      <div class="col-md-12">
-<P>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWatherMap API to assemble a dataset on over 500 cities. 
-After assembling the dataset, we used Matplotlip to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as a part of the analysis, as well asa explanations and descriptions of any trends and correlations witnessed.
-</P>
+				<h7>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWatherMap API to assemble a dataset on over 500 cities. 
+				After assembling the dataset, we used Matplotlip to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as a part of the analysis, as well asa explanations and descriptions of any trends and correlations witnessed.
+				</h7>
+			</div>
+			<div class="col-4 ">
+				<h3> Visualizationation </h3>
+			<hr>
+
+				<div class="row">
+					<div class="col-6">
+				    <img src="Resources/assets/images/Fig1.png" class="img-fluid" alt="Responsive image">
+					
+					
+					</div>
+					<div class="col-6">
+					<img src="Resources/assets/images/Fig2.png" class="img-fluid" alt="Responsive image">
+					
+					</div>
+		
+		
+				</div>
+			
+	<br>
+			
+				<div class="row">
+					<div class="col-6">
+				    <img src="Resources/assets/images/Fig3.png" class="img-fluid" alt="Responsive image">
+					
+					
+					</div>
+					<div class="col-6">
+					<img src="Resources/assets/images/Fig4.png" class="img-fluid" alt="Responsive image">
+					
+					</div>
+				</div>
+			
+<br>
 		</div>
-	</div>
-</div>
+     </div>
+
  
 </body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </html>

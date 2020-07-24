@@ -1,11 +1,4 @@
-.collapse navbar-collapse{
-	position: relative;
-  Right: 30px;
-  upper: 30px
-	
-}
+#image_container  {
+     margin: 30px 30px 30px 30px;
 
-.nav-link disabled{
-
-  text-align: center;
 }

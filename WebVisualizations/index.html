@@ -3,7 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
-  <title> Web designing challenge </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title> Lattitude </title>
   
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -12,6 +14,8 @@
 </head>
 
 <body>
+
+
 
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd"">
 
@@ -52,49 +56,53 @@
 
 	<div class="container" style="background-color: #e3f2fd"">
 		<div class="row">
-			<div class="col-8">
+			<div class="col-md-8 col-sm-12">
 			
 				<h3> Summery: Latitude vs. X </h3>
-				<hr>  
+				<br>  
+				<div class="col-7" id="image_container">
+                <img src="./Resources/assets/images/Fig1.png" class="img-fluid" align="left">
+				<br>
 
-				<h7>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWatherMap API to assemble a dataset on over 500 cities. 
+                 </div>
+				<p class="text-wrap" >The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWatherMap API to assemble a dataset on over 500 cities. 
 				After assembling the dataset, we used Matplotlip to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as a part of the analysis, as well asa explanations and descriptions of any trends and correlations witnessed.
-				</h7>
+				</p>
+				
+
 			</div>
-			<div class="col-4 ">
+	
+			<div class="col-md-4 col-sm-12">
+			
 				<h3> Visualizationation </h3>
 			<hr>
-
-				<div class="row">
-					<div class="col-6">
-				    <img src="Resources/assets/images/Fig1.png" class="img-fluid" alt="Responsive image">
-					
-					
-					</div>
-					<div class="col-6">
-					<img src="Resources/assets/images/Fig2.png" class="img-fluid" alt="Responsive image">
-					
-					</div>
-		
-		
-				</div>
 			
-	<br>
+			
+									<div class="wrapper">
 			
 				<div class="row">
-					<div class="col-6">
-				    <img src="Resources/assets/images/Fig3.png" class="img-fluid" alt="Responsive image">
 					
+					<div class="col-md-6 col-sm-3">
+				    <img src="Resources/assets/images/Fig1.png" class="img-fluid" >
+					</div>
+					<div class="col-md-6 col-sm-3">
+					<img src="Resources/assets/images/Fig2.png" class="img-fluid" >
+					<br>
+					</br>
+				    </div>
+					<div class="col-md-6 col-sm-3">
+				    <img src="Resources/assets/images/Fig3.png" class="img-fluid" >
 					
 					</div>
-					<div class="col-6">
-					<img src="Resources/assets/images/Fig4.png" class="img-fluid" alt="Responsive image">
+					<div class="col-md-6 col-sm-3">
+					<img src="Resources/assets/images/Fig4.png" class="img-fluid" >
 					
 					</div>
-				</div>
 			
+										</div>
+				</div>
 <br>
-		</div>
+		 </div>
      </div>
 
  

@@ -9,7 +9,6 @@
   
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,15 +16,16 @@
 
 
 
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd"">
-
-  <a class="navbar-brand" href="index.html">Latitude</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-light" >
+	
+  <a class="navbar navbar-brand " href="index.html">Latitude</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
+	
+  <!--<div class="collapse navbar-collapse justify-content-end " >-->
   <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-    <ul class="navbar-nav justify-content-end" >
+    <ul class="navbar-nav justify-content-end " >
 
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -35,7 +35,7 @@
           <a class="dropdown-item" href="plot_cloudiness.html">Cloudiness</a>
           <a class="dropdown-item" href="plot_wind_speed.html">Wind Speed</a>
           <a class="dropdown-item" href="plots_humidity.html">Humidity</a>
-		   <a class="dropdown-item" href="Max_temp.html">Max Temperature</a>
+		  <a class="dropdown-item" href="Max_temp.html">Max Temperature</a>
         </div>
       </li>
 	  
@@ -54,57 +54,55 @@
 <br>
 <br>
 
-	<div class="container" style="background-color: #e3f2fd"">
-		<div class="row">
-			<div class="col-md-8 col-sm-12">
+	<div class="container" >
+		 <div class="row"> 
+			<div class="col col-md-7 col-sm-12 col-xs-12" >
 			
-				<h3> Summery: Latitude vs. X </h3>
+				<p class="title1"> Summery: Latitude vs. X </p>
+				<div class="dropdown-divider"></div>
 				<br>  
-				<div class="col-7" id="image_container">
-                <img src="./Resources/assets/images/Fig1.png" class="img-fluid" align="left">
+				<div class	=	"col-7" id = "image_container">
+					<img class="intextimg" src	=	"Resources/assets/images/Fig1.png" width ="200px" height="auto" align="left">
+				</div>
+				<p class="text-parag">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWatherMap API to assemble a dataset on over 500 cities.
+				</p>
 				<br>
-
-                 </div>
-				<p class="text-wrap" >The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWatherMap API to assemble a dataset on over 500 cities. 
-				After assembling the dataset, we used Matplotlip to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as a part of the analysis, as well asa explanations and descriptions of any trends and correlations witnessed.
+				
+				<p class="text-parag">After assembling the dataset, we used Matplotlip to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as a part of the analysis, as well asa explanations and descriptions of any trends and correlations witnessed.
 				</p>
 				
-
 			</div>
 	
-			<div class="col-md-4 col-sm-12">
+	<div class="mx-2"></div>
+	<!--<div class="container2" align= "left">-->
+			<div class="col-md-4 col-sm-12 col-xs-12 col" >
 			
-				<h3> Visualizationation </h3>
-			<hr>
-			
-			
-									<div class="wrapper">
-			
+				<p class="title1"> Visualizationation </p>
+				<div class="dropdown-divider"></div>
+				<br>
+				<br>
 				<div class="row">
-					
 					<div class="col-md-6 col-sm-3">
-				    <img src="Resources/assets/images/Fig1.png" class="img-fluid" >
+						<img src="Resources/assets/images/Fig1.png" class="img-fluid" >
 					</div>
 					<div class="col-md-6 col-sm-3">
-					<img src="Resources/assets/images/Fig2.png" class="img-fluid" >
-					<br>
-					</br>
-				    </div>
-					<div class="col-md-6 col-sm-3">
-				    <img src="Resources/assets/images/Fig3.png" class="img-fluid" >
-					
+						<img src="Resources/assets/images/Fig2.png" class="img-fluid" >
+						<br>
+						</br>
 					</div>
 					<div class="col-md-6 col-sm-3">
-					<img src="Resources/assets/images/Fig4.png" class="img-fluid" >
-					
+						<img src="Resources/assets/images/Fig3.png" class="img-fluid" >
+					</div>
+					<div class="col-md-6 col-sm-3">
+						<img src="Resources/assets/images/Fig4.png" class="img-fluid" >
 					</div>
 			
-										</div>
-				</div>
+				</div> 
 <br>
-		 </div>
+		 
      </div>
-
+	 </div>
+	</div>
  
 </body>
 

@@ -12,12 +12,57 @@
 </head>
 
 <body>
+<nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-light" >
+	
+  <a class="navbar navbar-brand " href="index.html">Latitude</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+	
+  <!--<div class="collapse navbar-collapse justify-content-end " >-->
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav justify-content-end " >
 
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Plots
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="plot_cloudiness.html">Cloudiness</a>
+          <a class="dropdown-item" href="plot_wind_speed.html">Wind Speed</a>
+          <a class="dropdown-item" href="plots_humidity.html">Humidity</a>
+		  <a class="dropdown-item" href="Max_temp.html">Max Temperature</a>
+        </div>
+      </li>
+	  
+	  <li class="nav-item">
+        <a class="nav-link" href="Comparison.html">Comparison</a>
+      </li>
+	  
+      <li class="nav-item">
+        <a class="nav-link" href="Data.html">Data</a>
+      </li>
+	  
+    </ul>
+  
+  </div>
+</nav>
+<br>
+<br>
+						<p class="text-sm-left text-secondary  font-weight-bolder" style="font-size:30px" >
+                        
+                        Data
+                        
+						</p>
+						<hr>
+						<h6>The following table includes all of the data used for plotting during this project.</h6>
 
 <div  style="overflow-x:auto;">
- <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
+ <table border="2" class="table table-striped table-hover">
+ 
+  <thead class ="thead-dark">
+  
+    <tr style="text-align: center;">
       <th>City_ID</th>
       <th>City</th>
       <th>Cloudiness</th>

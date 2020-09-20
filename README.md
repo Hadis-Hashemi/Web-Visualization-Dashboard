@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
 ## Background
@@ -126,3 +127,6 @@ Small screen:
 ### Copyright
 
 Trilogy Education Services © 2019. All Rights Reserved.
+=======
+
+>>>>>>> b3fe696c4b15b5594a741546c261d3d20cc09fe4

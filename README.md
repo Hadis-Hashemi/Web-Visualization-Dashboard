@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# Web Design Homework - Web Visualization Dashboard (Latitude)
+# Web Design  - Web Visualization Dashboard (Latitude)
 
 ## Background
 
